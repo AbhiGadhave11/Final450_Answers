@@ -13,7 +13,7 @@ void Swap(int *a,int *b)
 void Rotate(int Arr[],int size)
 {
 	int i=0;
-	for(i=n-2;i>=0;i--)
+	for(i=size-2;i>=0;i--)
 	{
 		Swap(&Arr[i],&Arr[i+1]);
 	}
